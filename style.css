@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button {
+    background-color: #333;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 15px;
+    font-weight: 700;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+    cursor: pointer;
+    color: rgb(190, 190, 190);
+    transition: color 0.5s;
+}
